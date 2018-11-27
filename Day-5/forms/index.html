@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+
+    <form id='userform' action="" name="myform">
+<!-- ******inbuilt validations in HTML5********* -->
+        <label for="name">User Name</label>
+            <input type="text" id="username"  name="username" required  pattern="Jasdeep|jasdeep"><br>
+        
+        <label for="password" >Password</label>
+            <input type='password' name='password' required minlength="6" maxlength="10"><br>
+        <label for="email">Email</label><br> 
+            <input type='email' name='email' placeholder="email@sait.ca"  pattern=".+sait.ca" size="30" title="must sait id" required><br>
+        <label for="married">Married</label>
+            <input type='radio' name='married' value="yes" checked />yes
+            <input type='radio' name='married' value="no">No <br>
+        <label for="interest">Interests</label><br>
+            <input type='checkbox' name='interest' value="study" checked> Study <br>
+            <input type='checkbox' name='interest' value="dance">Dance <br>
+
+            <input type='checkbox' name="interest" value="reading">Reading <br>
+
+        <label for="phonenumber ">Phone Number</label>
+            <input type='number' name='phonenumber' placeholder="xxx-xxx-xxxx"  ><br>
+
+        <label for="listbox">List Box</label><br>
+            <select name="listbox" size="2" >
+                <option value="first">First</option>
+                <option value="second">Second</option>
+                <option value="third">Third</option>
+                <option value="fourth">Fourth</option>
+            </select><br>
+        <label for="drop">Drop Down</label><br>
+
+
+        <select name="drop"  >
+            <option value="dfirst" >First</option>
+            <option value="dsecond">Second</option>
+            <option value="dthird">Third</option>
+            <option value="dfourth">Fourth</option>
+        </select><br>
+
+        <label for="number">likes</label><br>
+        <input type="number" name="likes" min="1"  max="5">
+        
+
+
+
+        <input type='button' value='Click me'>
+        <input type="Reset">
+
+        <input type="submit" name="submit">
+
+
+
+
+
+
+    </form>
+
+
+
+
+    <script src="code.js"></script>
+
+
+</body>
+</html>

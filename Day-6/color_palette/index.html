@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day-6(Color-palette)</title>
+    <style>
+        .colorBox{
+            border-radius: 50%;
+            height : 30px;
+            width : 30px;
+            /* background-color: red; */
+            display: inline-block;
+            margin: 10px ;
+            /* padding: 30px; */
+        }
+        .paletteDiv{
+            height : 600px;
+            width : 808px;
+            background-color: rgb(231, 223, 223);
+            /* border-radius: 10%; */
+            margin: 20px;
+          
+
+        }
+    
+    </style>
+</head>
+<body>
+        <h1>Welcome to Color Palette Generator</h1>
+        <form action="" >
+                <label for="number">How many colors you want? </label>
+                <input id='number' type="number" ><br><br>
+                <label for="hue">Do you want hue? If so fill.</label>
+                <input type="text" id="hue"><br><br>
+                <label for="hue">Do you want luminousity?If so fill </label>
+                <input type="text" id="luminousity"><br><br>
+                <button id="myButton">Genrate Colors</button>
+                
+         </form>
+    <div class="paletteDiv"></div>
+    <!-- <div class="colorBox"></div>
+    <div class="colorBox"></div>
+    <div class="colorBox"></div>
+    <div class="colorBox"></div> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="./code.js"></script>
+    
+</body>
+</html>

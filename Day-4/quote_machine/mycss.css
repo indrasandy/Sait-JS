@@ -1,0 +1,51 @@
+/* ******Top part******** */
+.header
+{
+  height: 200px;
+  background-color: aquamarine;
+  text-align: center;
+
+
+}
+h1{
+    padding: 50px;
+    font-size: 5em;
+}
+.main{
+    height: 600px;
+    position: relative;
+    background-color: lightcoral;
+
+}
+.content{
+text-align: center;
+padding-top: 200px;
+font-size: 2em;
+position: relative;
+}
+#backbutton{
+    position: absolute;
+    left: 10px;
+    bottom: 200px;
+    background-color: lightcoral;
+    border: none;
+
+
+}
+#nextbutton{
+    position: absolute;
+    right: 10px;
+    bottom: 200px;
+    background-color: lightcoral;
+    border: none;
+
+
+}
+#tweet
+{
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    /* align-content: center; */
+
+}
